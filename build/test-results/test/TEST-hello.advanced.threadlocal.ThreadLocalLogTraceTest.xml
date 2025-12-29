@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.advanced.threadlocal.ThreadLocalLogTraceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-12-29T13:29:13.444Z" hostname="JayBook.local" time="0.007">
+  <properties/>
+  <testcase name="begin_end_level2()" classname="hello.advanced.threadlocal.ThreadLocalLogTraceTest" time="0.007"/>
+  <system-out><![CDATA[22:29:13.447 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] hello1
+22:29:13.449 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] |-->hello2
+22:29:13.449 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] |<--hello2 time=0ms
+22:29:13.449 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] hello1 time=2ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+o22:29:13.447 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] hello1
+s22:29:13.449 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] |-->hello2
+|22:29:13.449 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] |<--hello2 time=0ms
+x22:29:13.449 [Test worker] INFO hello.advanced.trace.threadlocal.code.ThreadLocalLogTrace -- [ac08a3ef] hello1 time=2ms
